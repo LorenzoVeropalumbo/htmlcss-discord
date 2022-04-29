@@ -38,6 +38,10 @@ img{
   margin: 0 10px;
 }
 
+.button:visited{
+  color: red;
+}
+
 /* HEADER */
 
 /* Header Top */

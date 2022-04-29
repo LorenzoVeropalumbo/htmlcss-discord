@@ -217,6 +217,7 @@ img{
 .main-footer span{
   font-size: 15px;
   color: white;
+  vertical-align: middle;
 }
 .main-footer i{
   color: white;
@@ -240,8 +241,12 @@ img{
   padding-top: 10px;
 }
 .col-footer li{
-  color: white;
+  
   padding: 8px 0;
+}
+
+.col-footer li a{
+  color: white;
 }
 
 /* HR */

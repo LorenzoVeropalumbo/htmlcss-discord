@@ -41,7 +41,7 @@ img{
   padding: 12px 12px;
   display: inline-block;
   text-align: center;
-  margin: 0 10px;
+  margin-left: 10px;
 }
 
 /* HEADER */
@@ -245,22 +245,8 @@ img{
 }
 
 /* HR */
-hr{
-  border: 1px solid #838485;
-}
-
-.footer-section-color{
-
-  background-color: #23272a;
-}
-
-.flex-container-footer{
-
-  justify-content: space-between;
-  align-items: center;
-  
-  height: 50px;
-  background-color: #7fffd4;
+.section-color3 hr{
+  border: 1px solid #455277;
 }
 
 .logo-footer{
@@ -279,6 +265,9 @@ hr{
   text-align: center;
 }
 
-.footer-section-color hr{
-  margin-bottom: 20px;
+.footer-end{
+  height: 100px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
 }

@@ -6,7 +6,6 @@
 }
 
 /* GENERIC */
-
 body{
   font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -45,7 +44,6 @@ img{
 }
 
 /* HEADER */
-
 /* Header Top */
 .header-top{
   background-color: #265ee9;
@@ -90,6 +88,7 @@ img{
 }
 
 /* HEADER BOTTOM */
+/* Jumbotron */
 .jumbotron-bg{
 
   background-image: url(../img/jumbo.png);
@@ -131,6 +130,7 @@ img{
 }
 
 /* MAIN */
+/* Section Color */
 .section-color{
 
   background-color: white;
@@ -149,8 +149,7 @@ img{
   padding: 10px 0 30px 0;
 }
 
-/* CONTENT SECTION */
-/* Section content 1 */
+/* Section content */
 .section img{
   width: 700px;
 }
@@ -201,6 +200,7 @@ img{
 }
 
 /* FOOTER */
+/* Main footer */
 .main-footer{
   list-style-type: none;
   color: #7089da;
@@ -223,6 +223,7 @@ img{
   color: white;
 }
 
+/* Logo Footer */
 .spacing-logo{
   padding: 0 10px;
 }
@@ -252,22 +253,6 @@ img{
 /* HR */
 .section-color3 hr{
   border: 1px solid #455277;
-}
-
-.logo-footer{
-  background-color: #ffb6c0;
-  padding: 2px;
-  width: 5%;
-  text-align: center;
-}
-
-.login-footer{
-  background-color: #ffb6c0;
-  text-decoration: none;
-  color: inherit;
-  padding: 2px;
-  width: 7%;
-  text-align: center;
 }
 
 .footer-end{

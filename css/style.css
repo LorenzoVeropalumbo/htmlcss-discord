@@ -164,7 +164,7 @@ img{
 }
 
 .section{
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 /* section 2 */

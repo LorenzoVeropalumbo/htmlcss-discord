@@ -6,87 +6,125 @@
 }
 
 /* GENERIC */
+
+body{
+  font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .container{
   width: 70%;
   margin: auto;
 }
 
-/* HEADER TOP */
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
 .flex-container{
   display: flex;
-  /* justify-content: space-around;
-  align-items: center; */
 }
 
-.top-section-color{
+.button{
 
-  /* test */
-  background-color: #add8e6;
-  padding: 20px 0;
+  border-radius: 20px;
+  padding: 12px 12px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
 }
 
+/* HEADER */
+
+/* Header Top */
+.header-top{
+  background-color: #265ee9;
+  padding: 10px 0;
+}
+
+.flex-top-container{
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.header-top .container{
+  width: 80%;
+}
+
+/* Menu */
 .menu{
-  list-style-type: none;
+
+  list-style-type: none; 
   display: flex;
   justify-content: center;
 }
 
 .menu li{
-  padding: 0 20px;
+  padding: 10px 25px;
 }
 
 .menu li a{
-  text-decoration: none;
-  color: inherit;
+
+  color: white;
+  font-size: 18px;
 }
 
-.logo,
-nav,
-.login {
-  padding: 5px 7px;
-
-  /* test */
-  border: 1px dashed black;
-  background-color: #daa520;
-}
-
-.flex-container .logo{
-  width: 20%;
-}
-
-.flex-container nav{
-  width: 60%;
-}
-
-.flex-container .login{
-  width: 20%;
-  text-align: right;
-  text-decoration: none;
-  color: inherit;
+/* Login Button */
+.login-button{
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 8px 12px;
+  color: black;
+  font-size: 14px;
 }
 
 /* HEADER BOTTOM */
 .jumbotron-bg{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  /* test */
-  background-color: #00008b;
-  height: 400px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .jumbotron-content{
 
-  /* test */
-  background-color: #ee82ee;
-  width: 60%;
-  height: 80%;
-  border: 1px dashed black;
+  text-align: center;
+  padding: 150px 0;
+  color: white;
+}
+
+.jumbotron-content h1{
+  font-size: 55px;
+  padding-bottom: 30px;
+}
+
+.jumbotron-content p{
+  line-height: 30px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+/* Buttons */
+.button-download{
+  background-color: white;
+  color: black;
+  font-size: 16px;
+
+}
+
+.button-browser{
+
+  background-color: #23272a;
+  color: white;
+  font-size: 16px;
 }
 
 /* MAIN */
-
 .section-color{
 
   /* test */
@@ -183,14 +221,14 @@ hr{
   background-color: #7fffd4;
 }
 
-.flex-container-footer .logo{
+.logo-footer{
   background-color: #ffb6c0;
   padding: 2px;
   width: 5%;
   text-align: center;
 }
 
-.flex-container-footer .login{
+.login-footer{
   background-color: #ffb6c0;
   text-decoration: none;
   color: inherit;

@@ -201,6 +201,10 @@ img{
 
 /* FOOTER */
 /* Main footer */
+.flag *{
+  vertical-align: middle;
+  display: inline-block;
+}
 .main-footer{
   list-style-type: none;
   color: #7089da;
@@ -211,18 +215,12 @@ img{
   padding: 8px 0;
 }
 .main-footer img{
-  width: 15%;
-  display: inline-block;
+  width: 30px;
 }
 .main-footer span{
   font-size: 16px;
   color: white;
-  display: inline-block;
-  vertical-align: middle;
   text-align: center;
-  line-height: 16px;
-  width: 50px;
-  height: 25px;
 }
 .main-footer i{
   color: white;
